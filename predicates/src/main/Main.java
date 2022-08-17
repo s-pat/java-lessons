@@ -10,9 +10,9 @@ public class Main {
         Animal animal2 = new Animal("test", "dog");
         Animal animal3 = new Animal("test", "cat");
         Animal animal4 = new Animal("test", "hamster");
+		
 
-
-        List someList = List.of(animal1,animal2,animal3,animal4);
+        List<Animal> someList = List.of(animal1,animal2,animal3,animal4);
 
        Predicate<Animal> filterOutDog = animal -> !animal.getType().equalsIgnoreCase("dog");
 
