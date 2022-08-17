@@ -23,5 +23,6 @@ public class Main {
 
       // someList = (List) someList.stream().filter(filterOutNumbersOver5).collect(Collectors.toList());
         //System.out.println(someList);
+
     }
 }
